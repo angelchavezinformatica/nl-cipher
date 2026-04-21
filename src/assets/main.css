@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-slate-950;
+
+  main {
+    section {
+      @apply bg-slate-800 px-6 py-4 rounded-3xl w-full text-slate-50;
+    }
+  }
+}
