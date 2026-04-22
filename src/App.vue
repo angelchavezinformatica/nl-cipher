@@ -5,8 +5,8 @@ import PrettyInput from "./components/pretty-input.vue";
 import { decrypt } from "./nl-cipher/decrypt";
 
 const encrypt = ref({
-  key: "3*x + 1",
-  message: "Hola Mundo",
+  key: "",
+  message: "",
 });
 
 const encriptedMessage = computed(() => {
@@ -18,8 +18,8 @@ const encriptedMessage = computed(() => {
 });
 
 const decripted = ref({
-  key: "(y - 1) / 3",
-  crypted: "W|1a|1R|}|2~|l|1s|1X|/|1a",
+  key: "",
+  crypted: "",
 });
 
 const decriptedMessage = computed(() => {
